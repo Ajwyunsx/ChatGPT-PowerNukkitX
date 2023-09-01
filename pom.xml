@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.violets007</groupId>
-    <artifactId>ChatGPTPlugin</artifactId>
+    <artifactId>ChatGPTSPlugin</artifactId>
     <version>1.1</version>
     <packaging>jar</packaging>
 
