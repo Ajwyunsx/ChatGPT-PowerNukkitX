@@ -24,7 +24,7 @@ import java.util.HashMap;
  * @description: 用于调用OpenAI的ChatGPT模型
  */
 public class RequestOpenAIAPI {
-    private static final String API_URL = "https://api.openai.com/v1/engines/text-davinci-003/completions";
+    private static final String API_URL = "https://api.chatanywhere.com.cn/v1/engines/gpt-3.5-turbo-0613/completions";
     private String apiKey; //OpenAI的apiKey
     private int maxTokens; //限制生成的文本的长度。模型将生成不多于该数值的令牌数量的文本。默认值为64，最大值为2048。
     private double topP; //控制生成的文本的多样性。值越高，生成的文本就越多样，并且更具创意性。值越低，生成的文本就越保守，更符合逻辑。
